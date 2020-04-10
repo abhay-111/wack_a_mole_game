@@ -1,0 +1,105 @@
+*
+{
+    margin: 0em;
+    padding: 0em;
+
+}
+.score
+{
+    border: 2px solid black;
+    padding: 10px 25px;
+    font-size: 3.5rem;
+}
+
+.a
+{
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.board
+{
+    position: relative;
+    left: 12%;
+    bottom: 100px;
+}
+.canvas
+{
+    position: relative;
+
+    margin-top: 150px;
+    left: 25%;
+}
+
+.start
+{
+    border-radius: 40%;
+    padding: 10px 30px;
+    background-color:  burlywood ;
+}
+
+
+
+
+.hole
+{
+    background-image: url(./download\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 200px;
+display: inline-block;
+
+
+}
+
+.hole2
+{
+    
+    background-image: url(./download\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+
+
+ 
+}
+
+.start
+{
+    position: relative;
+    top: -200px;
+    left: -100px;
+}
+.mole
+{
+
+    
+    background-image: url(./download.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    
+    width: 100px;
+
+    position: relative;
+    left: 60px;
+    bottom: 60px;
+    transform: translateY(90px);
+
+    transition: 0.5s ease;
+    opacity: 0;
+}
+
+
+
+.up
+{
+    opacity: 1;
+    transform: translateY(0px);
+}
